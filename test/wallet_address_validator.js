@@ -193,6 +193,10 @@ describe('WAValidator.validate()', function () {
         it('should return false for incorrect bitcoin addresses', function () {
             commonTests('bitcoin');
         });
+        
+        it('should return false for incorrect averopay addresses', function () {
+            commonTests('averopay');
+        });
 
         it('should return false for incorrect litecoin addresses', function () {
             commonTests('litecoin');
