@@ -1,0 +1,41 @@
+{
+  "name": "wallet-address-validator",
+  "description": "Wallet address validator for Bitcoin and other Altcoins.",
+  "keywords": [
+    "bitcoin",
+    "litecoin",
+	"averopay",
+    "dogecoin",
+    "altcoin",
+    "address",
+    "wallet",
+    "validator",
+    "javascript",
+    "browser",
+    "nodejs"
+  ],
+  "version": "0.1.0",
+  "author": "Carsen Klock <dezzyboy@gmail.com>",
+  "homepage": "https://github.com/dezzyboy/wallet-address-validator",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dezzyboy/wallet-address-validator.git"
+  },
+  "main": "src/wallet_address_validator",
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "jssha": "1.6.0"
+  },
+  "devDependencies": {
+    "chai": "latest",
+    "grunt": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-mocha": "latest",
+    "grunt-simple-mocha": "latest",
+    "mocha": "latest"
+  }
+}
+
